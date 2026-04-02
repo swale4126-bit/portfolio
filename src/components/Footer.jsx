@@ -1,4 +1,4 @@
-import { FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
     return (
@@ -19,6 +19,17 @@ function Footer() {
                     >
                         <FaGithub />
                         github.com/swale4126-bit
+                    </a>
+
+                    {/* LinkedIn */}
+                    <a
+                        href="https://linkedin.com/in/yourprofile"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:text-blue-400 transition"
+                    >
+                        <FaLinkedin />
+                        https://www.linkedin.com/in/wale-solomon-1637023b9
                     </a>
 
                     {/* Email */}

@@ -51,7 +51,7 @@ function Home() {
                             </Link>
 
                             <a
-                                href="/cv.pdf"
+                                href="/cv(2).pdf"
                                 download
                                 className="border border-gray-400 px-6 py-3 rounded-lg hover:bg-gray-100 transition"
                             >
