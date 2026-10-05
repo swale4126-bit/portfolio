@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { 
-    FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaServer, FaDatabase, FaCode, FaTools
+    FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaServer, FaDatabase, FaCode, FaTools, FaUsers, FaComments, FaClock
 } from "react-icons/fa";
 import { 
-    SiTailwindcss, SiBootstrap, SiExpress, SiPostgresql, SiMysql, SiDotnet 
+    SiTailwindcss, SiBootstrap, SiExpress, SiPostgresql, SiMysql, SiDotnet
 } from "react-icons/si";
 import { TbApi, TbBrandCSharp } from "react-icons/tb";
 
@@ -41,7 +41,16 @@ function Skills() {
             skills: [
                 { name: "Git", icon: <FaGitAlt className="text-[#F05032]" /> },
                 { name: "GitHub", icon: <FaGithub className="text-gray-900" /> },
-                { name: "REST APIs", icon: <TbApi className="text-gray-600" /> }
+                { name: "REST APIs", icon: <TbApi className="text-gray-600" /> },
+                { name: "Visual Studio Code", icon: <FaCode className="text-[#007ACC]" /> }
+            ]
+        },
+        {
+            title: "Soft Skills",
+            skills: [
+                { name: "Team Collaboration", icon: <FaUsers className="text-blue-500" /> },
+                { name: "Communication", icon: <FaComments className="text-green-500" /> },
+                { name: "Time Management", icon: <FaClock className="text-yellow-500" /> }
             ]
         }
     ];

@@ -22,7 +22,7 @@ function Footer() {
     ];
 
     // TODO: REPLACE WITH REAL GITHUB URL
-    const GITHUB_URL = "https://github.com/swale4126-bit/swale412-bit.git";
+    const GITHUB_URL = "https://github.com/swale4126-bit";
     
     // TODO: REPLACE WITH REAL LINKEDIN URL
     const LINKEDIN_URL = "https://www.linkedin.com/in/wale-solomon-080173429";

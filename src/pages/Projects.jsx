@@ -3,17 +3,21 @@ import { FaGithub, FaReact, FaNodeJs, FaExternalLinkAlt, FaChevronLeft, FaChevro
 import { SiTailwindcss, SiExpress, SiPostgresql, SiBootstrap, SiDotnet } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import { motion } from "framer-motion";
-
+import bmsDashboard from "../assets/projects/bms-dashboard.png";
+import bmsProducts from "../assets/projects/bms-products.png";
+import bmsInventory from "../assets/projects/bms-inventory.png";
+import bmsSales from "../assets/projects/bms-sales.png";
+import bmsCustomers from "../assets/projects/bms-customers.png";
+import visitHawassa from "../assets/projects/hawassa.png";
+import clinicImg from "../assets/projects/clinic.png";
 function Projects() {
-    // TODO: REPLACE WITH REAL GITHUB URLS
-    const GITHUB_BMS = "https://github.com/YOUR-USERNAME/business-management-system";
-    const GITHUB_HAWASSA = "https://github.com/YOUR-USERNAME/visit-hawassa";
-    const GITHUB_CLINIC = "https://github.com/YOUR-USERNAME/clinic-management-system";
+    const GITHUB_BMS = "https://github.com/swale4126-bit/Business-Management-System.git";
+    const GITHUB_HAWASSA = "https://github.com/swale4126-bit/Visit-Hawassa.git";
+    const GITHUB_CLINIC = "https://github.com/SAMI477716/HUIOTClinicMS.git";
 
-    // TODO: REPLACE WITH REAL LIVE URLS
-    const LIVE_BMS = "https://YOUR-BMS-LIVE-URL.com";
-    const LIVE_HAWASSA = "https://YOUR-VISIT-HAWASSA-LIVE-URL.com";
-    const LIVE_CLINIC = "https://YOUR-CLINIC-LIVE-URL.com";
+    const LIVE_BMS = "https://business-management-system-sf2h.vercel.app/";
+    const LIVE_HAWASSA = "https://visit-hawassa.vercel.app/";
+    const LIVE_CLINIC = null;
 
     const projects = [
         {
@@ -26,7 +30,7 @@ function Projects() {
                 { icon: <SiExpress className="text-gray-800" />, name: "Express.js" },
                 { icon: <SiPostgresql className="text-[#4169E1]" />, name: "PostgreSQL" }
             ],
-            description: "Business Management System is a full-stack web application designed to centralize core business operations including products, inventory, sales, customers, suppliers, and employees.",
+            description: "Full-stack business management application for managing products, inventory, sales, customers, suppliers, and employees, with frontend/backend integration, REST APIs, authentication, CRUD operations, and PostgreSQL database management.",
             features: [
                 "Frontend-backend integration",
                 "REST API development",
@@ -35,39 +39,36 @@ function Projects() {
                 "PostgreSQL database integration",
                 "Responsive interface"
             ],
-            // TODO: REPLACE WITH REAL PROJECT SCREENSHOTS
             screenshots: [
-                "/assets/projects/bms-dashboard.png",
-                "/assets/projects/bms-products.png",
-                "/assets/projects/bms-inventory.png",
-                "/assets/projects/bms-sales.png",
-                "/assets/projects/bms-customers.png"
+                bmsDashboard,
+                bmsProducts,
+                bmsInventory,
+                bmsSales,
+                bmsCustomers
             ],
             github: GITHUB_BMS,
             liveUrl: LIVE_BMS
         },
         {
             name: "Visit Hawassa",
-            // TODO: REPLACE WITH REAL PROJECT SCREENSHOT
-            image: "/assets/projects/visit-hawassa.png",
+            image: visitHawassa,
             techIcons: [
                 { icon: <FaReact className="text-[#61DAFB]" />, name: "React.js" },
                 { icon: <SiTailwindcss className="text-[#06B6D4]" />, name: "Tailwind CSS" }
             ],
-            description: "Visit Hawassa is a responsive web application that helps users discover attractions, places, and experiences in Hawassa through a modern and user-friendly interface.",
+            description: "Responsive web application that helps users discover and explore attractions, places, and experiences in Hawassa through a modern and user-friendly interface.",
             github: GITHUB_HAWASSA,
             liveUrl: LIVE_HAWASSA
         },
         {
             name: "Hawassa University Clinic Management System",
-            // TODO: REPLACE WITH REAL PROJECT SCREENSHOT
-            image: "/assets/projects/clinic-management-system.png",
+            image: clinicImg,
             techIcons: [
                 { icon: <TbBrandCSharp className="text-[#239120]" />, name: "C#" },
-                { icon: <SiDotnet className="text-[#512BD4]" />, name: "ASP.NET" },
+                { icon: <SiDotnet className="text-[#512BD4]" />, name: "ASP.NET Framework" },
                 { icon: <SiBootstrap className="text-[#7952B3]" />, name: "Bootstrap" }
             ],
-            description: "A web-based clinic management system designed to support the organization of clinic operations, patient information, and healthcare-related workflows.",
+            description: "Web-based clinic management system designed to support clinic operations, patient information, laboratory workflows, prescriptions, pharmacy activities, and healthcare-related information management.",
             github: GITHUB_CLINIC,
             liveUrl: LIVE_CLINIC
         }

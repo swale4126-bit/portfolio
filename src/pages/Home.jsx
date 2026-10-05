@@ -14,14 +14,11 @@ function Home() {
         }
     };
 
-    // TODO: Replace with real GitHub URL
-    const GITHUB_URL = "https://github.com/YOUR-USERNAME";
+    const GITHUB_URL = "https://github.com/swale4126-bit";
     
-    // TODO: Replace with real LinkedIn URL
-    const LINKEDIN_URL = "https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME/";
+    const LINKEDIN_URL = "https://www.linkedin.com/in/wale-solomon-080173429";
     
-    // TODO: Replace with actual CV PDF
-    const CV_PATH = "/assets/Wale-Solomon-CV.pdf";
+    const CV_PATH = "/cv.pdf";
 
     return (
         <section id="home" className="pt-20 pb-16 md:pt-28 md:pb-24 bg-gray-50 flex items-center min-h-[calc(100vh-80px)]">
