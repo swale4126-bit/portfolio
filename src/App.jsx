@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import WhatICanDo from "./components/WhatICanDo";
+import DevelopmentApproach from "./components/DevelopmentApproach";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
@@ -16,6 +17,7 @@ function App() {
         <About />
         <Skills />
         <WhatICanDo />
+        <DevelopmentApproach />
         <Projects />
         <Contact />
       </main>

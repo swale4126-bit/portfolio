@@ -90,7 +90,7 @@ function Projects() {
                 <img
                     src={screenshots[currentIndex]}
                     alt={`Screenshot ${currentIndex + 1}`}
-                    className="w-full h-full object-cover object-top transition-opacity duration-300"
+                    className="w-full h-full object-contain object-center transition-opacity duration-300"
                     onError={(e) => { e.target.src = "https://via.placeholder.com/600x400?text=Screenshot+Placeholder"; }}
                 />
                 <button 
@@ -118,7 +118,7 @@ function Projects() {
     };
 
     return (
-        <section id="projects" className="py-24 bg-white">
+        <section id="projects" className="py-16 md:py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 
                 <motion.div 
@@ -156,7 +156,7 @@ function Projects() {
                                             <img
                                                 src={project.image}
                                                 alt={project.name}
-                                                className="w-full h-full object-cover object-top"
+                                                className="w-full h-full object-contain"
                                                 onError={(e) => { e.target.src = "https://via.placeholder.com/600x400?text=Project+Placeholder"; }}
                                             />
                                         </div>

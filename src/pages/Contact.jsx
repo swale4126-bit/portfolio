@@ -56,7 +56,7 @@ function Contact() {
     ];
 
     return (
-        <section id="contact" className="py-24 bg-gray-50">
+        <section id="contact" className="py-16 md:py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-6">
                 
                 <motion.div 
@@ -69,7 +69,7 @@ function Contact() {
                     <h2 className="text-4xl font-bold text-gray-900 mb-4">Let's Work Together</h2>
                     <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full mb-6"></div>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                        I'm open to junior full-stack web development opportunities, internships, freelance projects, and collaborations. Feel free to get in touch.
+                        I'm open to discussing web development projects, collaboration, and opportunities to build useful software solutions. Feel free to get in touch.
                     </p>
                 </motion.div>
 

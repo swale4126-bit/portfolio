@@ -30,7 +30,7 @@ function WhatICanDo() {
     ];
 
     return (
-        <section id="what-i-can-do" className="py-24 bg-white">
+        <section id="what-i-can-do" className="py-16 md:py-20 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 
                 <motion.div 

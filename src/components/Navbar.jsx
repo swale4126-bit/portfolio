@@ -39,7 +39,7 @@ function Navbar() {
             <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
                 
                 {/* Logo */}
-                <h1 className="text-2xl font-bold tracking-wide cursor-pointer flex items-center gap-1" onClick={(e) => handleScroll(e, '#home')}>
+                <h1 className="text-2xl font-bold tracking-wide cursor-pointer flex items-center" onClick={(e) => handleScroll(e, '#home')}>
                     Wale<span className="text-blue-500">Dev</span>
                 </h1>
 

@@ -56,7 +56,7 @@ function Skills() {
     ];
 
     return (
-        <section id="skills" className="py-24 bg-gray-50">
+        <section id="skills" className="py-16 md:py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-6">
                 
                 <motion.div 
@@ -70,7 +70,7 @@ function Skills() {
                     <div className="w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
                 </motion.div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
                     {skillCategories.map((category, index) => (
                         <motion.div 
                             key={index}
