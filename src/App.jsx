@@ -17,8 +17,8 @@ function App() {
         <About />
         <Skills />
         <WhatICanDo />
-        <DevelopmentApproach />
         <Projects />
+        <DevelopmentApproach />
         <Contact />
       </main>
       <Footer />

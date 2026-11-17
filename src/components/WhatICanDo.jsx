@@ -13,7 +13,7 @@ function WhatICanDo() {
             title: "Frontend Development",
             description: "Create responsive, user-friendly, and modern interfaces using component-based development and responsive design.",
             icon: <FaLaptopCode className="text-4xl text-blue-400 mb-4" />,
-            technologies: ["React.js", "JavaScript", "Tailwind CSS", "Bootstrap"]
+            technologies: ["React.js", "Tailwind CSS", "Bootstrap"]
         },
         {
             title: "Backend & API Development",

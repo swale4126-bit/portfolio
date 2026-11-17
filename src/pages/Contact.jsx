@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import { FaEnvelope, FaTelegramPlane, FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaTelegramPlane, FaPhoneAlt, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function Contact() {
     const form = useRef();
@@ -33,6 +33,20 @@ function Contact() {
 
     const contactMethods = [
         {
+            title: "LinkedIn",
+            value: "Wale Solomon",
+            icon: <FaLinkedin className="text-2xl text-blue-600" />,
+            link: "https://www.linkedin.com/in/wale-solomon-080173429",
+            buttonText: "Connect on LinkedIn"
+        },
+        {
+            title: "GitHub",
+            value: "swale4126-bit",
+            icon: <FaGithub className="text-2xl text-gray-900" />,
+            link: "https://github.com/swale4126-bit",
+            buttonText: "View GitHub"
+        },
+        {
             title: "Email",
             value: "swale4126@gmail.com",
             icon: <FaEnvelope className="text-2xl text-blue-500" />,
@@ -41,14 +55,14 @@ function Contact() {
         },
         {
             title: "Telegram",
-            value: "Available for chat",
+            value: "Available for direct messaging",
             icon: <FaTelegramPlane className="text-2xl text-blue-400" />,
             link: "https://t.me/wsm51921",
-            buttonText: "Message Me"
+            buttonText: "Message on Telegram"
         },
         {
             title: "Phone",
-            value: "Available for calls",
+            value: "+251963621997",
             icon: <FaPhoneAlt className="text-2xl text-green-500" />,
             link: "tel:+251963621997",
             buttonText: "Call Now"
