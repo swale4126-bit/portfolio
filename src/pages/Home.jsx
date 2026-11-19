@@ -67,7 +67,7 @@ function Home() {
                         </motion.h2>
 
                         <p className="mt-5 text-gray-600 text-lg leading-relaxed">
-                            I am an Information Systems student at Hawassa University and a Full-Stack Web Developer focused on building modern, responsive, and practical web applications using React.js, Tailwind CSS, Node.js, Express.js, and PostgreSQL.
+                            I build modern, responsive, and practical web applications using React.js, Tailwind CSS, Node.js, Express.js, and PostgreSQL. I enjoy turning real-world problems into reliable software solutions through thoughtful design and development.
                         </p>
 
                         {/* CTA Buttons */}
@@ -144,7 +144,7 @@ function Home() {
                                     <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                                 </span>
                                 <span className="text-xs font-semibold text-gray-800">
-                                    Open to Junior & Remote Roles
+                                    Open to Full-Stack Developer Opportunities
                                 </span>
                             </div>
                         </div>

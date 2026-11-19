@@ -179,7 +179,7 @@ function Projects() {
             architecture: "Multi-tier ASP.NET Core MVC architecture with Entity Framework Core ORM interfacing with Microsoft SQL Server, secured via ASP.NET Core Identity for authenticated, role-authorized medical workflows.",
             outcomes: "Eliminates disorganized paper records by digitizing campus clinic operations into a secure, auditable workflow connecting reception, triage, examination rooms, laboratory, and pharmacy.",
             image: clinicImg,
-            github: "https://github.com/SAMI477716/HUIOTClinicMS.git",
+            github: "https://github.com/swale4126-bit/HUIOTClinicMS",
             liveUrl: null // No live demo URL provided
         }
     ];
